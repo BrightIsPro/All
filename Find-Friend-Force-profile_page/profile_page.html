@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./profile_page.css">
+
+</head>
+<header class="nav">
+    <div class="imgbrand_box"><a href="index1.html">
+            <img src="https://i.ibb.co/yF3MDjX/4161b325ebff16c75d3127844bbfe56e-removebg-preview.png"
+                alt="4161b325ebff16c75d3127844bbfe56e-removebg-preview" border="0">
+        </a>
+        <h1>Triple F</h1>
+    </div>
+    <form>
+        <input id="searchBox" type="text" placeholder="Search for Players or Game Types..." autocomplete="off">
+        <ion-icon name="search"></ion-icon>
+        <div class="searchOut">
+            <!-- example : <ul>
+                <li>
+                  <a href="#">
+                    <div class="searchUserInfo">
+                      <img class="userImg"></img>
+                      <h5>name</h5>
+                    </div>
+                  </a>
+                </li>
+              </ul> -->
+        </div>
+    </form>
+    <div class="box">
+        <img class="picprofile_content" id="navbar-profile" src="./image/msedge_Z3dZKNX4Yt.png">
+        <img class="coinshop_content" src="https://i.ibb.co/mTqhGmV/8633377800bec812a4800dcd90b74a12.png"
+            alt="8633377800bec812a4800dcd90b74a12" border="0">
+    </div>
+</header>
+
+<body>
+
+    <div class="container-sidebar">
+        <div class="sidebar">
+            <div class="title-sidebar">
+                <h3>Discover</h3>
+            </div>
+            <div class="menu-sidebar">
+                <div class="display1">
+                    <a href="">Party</a><br>
+                    <a href="">Stream</a><br>
+                    <a href="">Friend</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="profile-content">
+            <div class="headporf">
+                <div class="headerprof">
+                    <img id="imgPrf" class="imghead1" src="" alt="">
+                </div>
+                <div class="headercontent">
+                    <div class="topcontent">
+                        <h3 id="namePrf" class="name01">Profile Name</h3>
+                    </div>
+                    <div class="followconten">
+                        <div id="emailPrf" class="follower">email</div>
+                        <div id="hoursPrf" class="following"></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!---->
+            <div class="form">
+                <div class="form-content" style="margin-left: -10em;">
+                    <div id="form-title-header">
+                        <h2 style="color:black">Info</h2>
+                        <div id="edit">
+                            <div>Edit</div>
+                            <i class="gg-pen" style="background-color: black;"></i>
+                        </div>
+                    </div>
+
+                    <div class="form-content-item">
+                        <label for="profile-name-input" style="color: black;">Profile Name</label>
+                        <input type="text" placeholder="Insert new name" id="profile-name-input" disabled>
+                        <!--name-->
+                    </div>
+
+            
+                    <div class="form-content-item">
+                        <label for="link-image-input" style="color: black;">Image Link</label>
+                        <input type="text" placeholder="Insert img link" id="link-image-input" disabled>
+                        <!--pic-->
+                    </div>
+
+                    <div class="form-content-item">
+                        <label for="username-input" style="color: black;">Username</label>
+                        <input type="text"  id="username-input" disabled>
+                        <!--username-->
+                    </div>
+
+                    <div class="form-content-item">
+                        <label for="password-input" style="color: black;">Password</label>
+                        <input type="text" placeholder="Insert password" id="password-input" disabled>
+                        <!--pass-->
+                    </div>
+
+
+                    <div class="form-content-item">
+                        <label for="profile-name-input" style="color: black;">Email</label>
+                        <input type="text"  id="email-input" disabled>
+                        <!--email-->
+                    </div>
+
+            
+
+            
+                    <button type="submit" class="save-btn" id="submitUpdate">Save</button>
+                </div>
+            </div>
+
+
+            <!--ป๊อบอัพ เปลี่ยนรุปโรป-->
+
+            <div id="online-time">
+
+            </div>
+
+    <!-- Add the backdrop and message box -->
+    <div id="backdrop">
+        <div class="message-box">
+            <p id="message-box-p">Successful!</p>
+        </div>
+
+
+        </div>
+    </div>
+    </div>
+
+    <script src="./profile_page.js"></script>
+</body>
+
+</html>
